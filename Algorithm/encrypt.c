@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	char s[20];
+	int i;
+	printf("•¶š—ñ‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+	scanf("%s", &s[0]);
+	for (i = 0; s[i] != '\0'; i++) {
+		s[i] = s[i] + 1;
+	}
+	printf("ˆÃ†‰»•ª—ô‚ÍA%s\n", s);
+}
